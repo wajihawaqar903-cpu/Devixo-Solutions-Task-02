@@ -28,3 +28,12 @@ The most influential features in the tuned Random Forest were tenure months and 
 
 ## Tools
 Python, Pandas, NumPy, Matplotlib, Seaborn, and Scikit-learn.
+## Conclusion
+
+In this project, I developed and compared machine learning models to predict customer churn using Python and Scikit-learn. I trained Logistic Regression, Decision Tree, and Random Forest models and used RandomizedSearchCV to tune the Random Forest model.
+
+The tuned Random Forest achieved **97.53% accuracy, 42.70% precision, 56.52% recall, 48.65% F1-score, and 95.93% ROC-AUC** on the test set. These results show that the model can identify many customers who may churn, although further improvement is needed to reduce missed churn cases and false-positive predictions.
+
+Feature-importance analysis identified `tenure_months` as the most influential feature, followed by `monthly_usage_hours`.
+
+This project strengthened my practical understanding of data preparation, machine learning, model evaluation, hyperparameter tuning, and feature importance. Future improvements could include class weighting and decision-threshold adjustment to improve churn detection.
