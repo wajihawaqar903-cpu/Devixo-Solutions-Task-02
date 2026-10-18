@@ -1,5 +1,5 @@
 # Devixo-Solutions-Task-02
-Laptop Dataset Analysis using Python
+customer churn prediction using Python
 # Devixo Solutions Task 02: Customer Churn Prediction
 
 ## Project Overview
